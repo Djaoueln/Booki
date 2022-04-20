@@ -1,0 +1,46 @@
+/* popular card */
+.popular
+   {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     
+   }
+
+.popular-card.apartment-card img
+   {
+     height: auto;
+     width: 40%;
+     border-radius: 1rem 0 0 1rem;
+     margin-right: 0.5rem;
+     object-fit: cover;
+     object-position: center;
+     
+   }
+.popular-offer
+   {
+     flex-basis: 100%;
+     display: flex;
+     flex-direction: column;
+   }
+.popular-card 
+   {
+     display: flex;
+     min-width: 25rem;
+     max-height: 10rem;
+   }
+
+
+.popular-apartment-card .stars
+   {
+   margin-top: auto;
+   }
+.popular h2
+   {
+     display: flex;
+     justify-content: space-between;
+   }
+.popular h2, .city h2
+   {
+     margin-top: 0.5rem;
+   }
