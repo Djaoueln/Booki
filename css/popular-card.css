@@ -9,15 +9,15 @@
 
 .popular-card.apartment-card img
    {
-     height: auto;
-     width: 40%;
-     border-radius: 1rem 0 0 1rem;
-     margin-right: 0.5rem;
-     object-fit: cover;
-     object-position: center;
+      height: auto;
+      border-radius: 1rem 0 0 1rem;
+      width: 40%;
+      margin-right: 0.5rem;
+      margin-right: 0.5rem;
+      object-fit: cover;
      
    }
-.popular-offer
+.popular-description
    {
      flex-basis: 100%;
      display: flex;
