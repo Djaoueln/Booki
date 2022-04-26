@@ -10,12 +10,13 @@
   }
 .apartments-list .popular div 
   {
-    padding: 0.5rem;
     border-radius: 1rem;
   }
 
-  @media (max-width: 800px) {
-    .apartments-list .popular-flex {
+  @media (max-width: 800px) 
+  {
+    .apartments-list .popular-flex 
+    {
       flex-direction: row;
     }
   }

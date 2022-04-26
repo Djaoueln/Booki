@@ -11,23 +11,21 @@
    {
       height: auto;
       border-radius: 1rem 0 0 1rem;
-      width: 40%;
-      margin-right: 0.5rem;
+      width: 30%;
       margin-right: 0.5rem;
       object-fit: cover;
      
    }
 .popular-description
    {
-     flex-basis: 100%;
      display: flex;
      flex-direction: column;
    }
 .popular-card 
    {
      display: flex;
-     min-width: 25rem;
-     max-height: 10rem;
+     min-width: 30%;
+     max-height: 30%;
    }
 
 
@@ -35,12 +33,13 @@
    {
    margin-top: auto;
    }
-.popular h2
+.popular h2, h3
    {
      display: flex;
      justify-content: space-between;
    }
-.popular h2, .city h2
+.popular h2, h3 .city h2, h3
    {
      margin-top: 0.5rem;
+     font-size: 1.4em;
    }
