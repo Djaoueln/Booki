@@ -13,10 +13,14 @@
     border-radius: 1rem;
   }
 
-  @media (max-width: 800px) 
+  @media (max-width: 900px) 
   {
     .apartments-list .popular-flex 
     {
-      flex-direction: row;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+     
+      
     }
   }
