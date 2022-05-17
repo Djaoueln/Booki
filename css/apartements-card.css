@@ -2,13 +2,13 @@
 .apartment-card
   {
     background-color: white;
-    border-radius: 1rem;
-    padding: 0.5rem;
+    border-radius: 16px;
+    padding: 2px;
     box-shadow: 0 0 16px #0000002e;
     flex-grow: 1;
     transition: all 0.2s;
     flex-basis: 30%;
-    min-width: 15rem;
+    min-width: 240px;
   }
 .apartment-card:hover 
   {
@@ -17,15 +17,20 @@
   }
 .apartment-card p, .apartment-card h3, .popular-offer p, .popular-offer h3
   {
-    margin: 0.2rem;
+    margin: 2.2px;
   }
+.name
+ {
+   margin-left: 10px;
+   line-height: 129%;
+ }
 .apartment-card img
  {
-  height: 7rem;
+  height: 112px;
   object-fit: cover;
   max-width: 100%;
   width: 100%;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 16px 16px 0 0;
 
 }
 .blue 

@@ -16,7 +16,7 @@
      <nav>
         <img class="logo" src="./images/logo/Booki@3x.png" alt="bookie logo"> 
       <div class="sub-nav">
-        <a href="#hébergments">Hébergements</a>
+        <a href="#hébergements">Hébergements</a>
         <a href="#activités">Activités</a>
       </div>
      </nav>  
@@ -39,6 +39,7 @@
     <!--Filter-->
   <div class="filter-list">
       <h2>Filtres</h2>
+      <div class="flex-filter">
       <div class="filter">
         <i class="fa-solid fa-money-bill-wave"></i>
         <span>Économique</span>
@@ -56,6 +57,7 @@
         <span>Animaux autorisés</span>
       </div>
   </div>
+  </div>
   
   <div class="info">
      <i class="fa-solid fa-info"></i> 
@@ -67,16 +69,17 @@
   
   
   <!--APARTMENT LIST-->
-  <section class="apartments-list">
+  <section class="apartments-list" id="hébergements">
 
       <div class="city">
-        <h3 id="hébergements">Hébergement à Marseille</h3>
+        <h3>Hébergement à Marseille</h3>
         <div class="city-apartments-list">
           <div class="apartment-card">
             <div class="apartment-card-image">
               <img src="./images/hebergements/4_small/Auberge-de-la-Cannebière.jpg"
                 alt="canebiere">
             </div>
+            <div class="name">
             <h3>Auberge de la Canebière</h3>
             <p>Nuit à partir de <strong>25€</strong></p>
             <p class="stars">
@@ -87,11 +90,13 @@
               <i class="fas fa-star grey"></i>
             </p>
           </div>
+          </div>
           <div class="apartment-card">
             <div class="apartment-card-image">
               <img src="./images/hebergements/4_small/Du-port.jpg"
                 alt="du-port">
             </div>
+            <div class="name">
             <h3>Hôtel du port</h3>
             <p>Nuit à partir de 52<strong>€</strong></p>
             <p class="stars">
@@ -101,12 +106,14 @@
               <i class="fas fa-star blue"></i>
               <i class="fas fa-star blue"></i>
             </p>
+            </div>
           </div>
           <div class="apartment-card">
             <div class="apartment-card-image">
               <img src="./images/hebergements/4_small/Les-mouettes.jpg"
                 alt="Mouettes">
             </div>
+            <div class="name">
             <h3>Hôtel Les Mouettes</h3>
             <p>Nuit à partir de 76<strong>€</strong></p>
             <p class="stars">
@@ -117,11 +124,13 @@
               <i class="fas fa-star grey"></i>
             </p>
           </div>
+          </div>
           <div class="apartment-card">
             <div class="apartment-card-image">
               <img src="./images/hebergements/4_small/De-la-mer.jpg"
                 alt="De-la-mer">
             </div>
+            <div class="name">
             <h3>Auberge de la mer</h3>
             <p>Nuit à partir de 46<strong>€</strong></p>
             <p class="stars">
@@ -131,12 +140,14 @@
               <i class="fas fa-star grey"></i>
               <i class="fas fa-star grey"></i>
             </p>
+            </div>
           </div>
           <div class="apartment-card">
             <div class="apartment-card-image">
               <img src="./images/hebergements/4_small/Le-panier.jpg"
                 alt="Le-panier">
             </div>
+            <div class="name">
             <h3>Auberge Le Panier</h3>
             <p>Nuit à partir de <strong>23€</strong></p>
             <p class="stars">
@@ -146,12 +157,14 @@
               <i class="fas fa-star blue"></i>
               <i class="fas fa-star grey"></i>
             </p>
+            </div>
           </div>
           <div class="apartment-card">
             <div class="apartment-card-image">
               <img src="./images/hebergements/4_small/Amina.jpg"
                 alt="Chez-amina">
             </div>
+            <div class="name">
             <h3>Hôtel Chez Amina</h3>
             <p>Nuit à partir de 96<strong>€</strong></p>
             <p class="stars">
@@ -161,15 +174,16 @@
               <i class="fas fa-star blue"></i>
               <i class="fas fa-star blue"></i>
             </p>
+            </div>
           </div>
 
         </div>
         <a href="">Afficher plus</a>
       </div>
       <div class="popular">
-        <h3>Les plus populaires
+        <div class="name-popular"><h3>Les plus populaires
           <i class="fas fa-chart-line"></i>
-        </h3>
+        </h3></div>
         <div class="popular-flex">
           <div class="apartment-card popular-card">
             <img src="./images/hebergements/4_small/Soleil-matin.jpg"
@@ -221,18 +235,72 @@
              
     
   </section>
-<!-- activiter-->
-  <h3 id="activités">Activités à Marseille</h3>
-  <div class="activities-list">
-      <div class="big1">
-        <h3>Vieux Port</h3>
+<!-- activites-->
+<section class="activites" id="activités">
+  <h2>Activités à Marseille</h2>
+  <div class="activites-marseille">
+  <div class="activites-card">
+      <div class="card-activites act-card">
+        <a href=""></a>
+        <div>
+          <img src="images/activites/4_small/Vieux-port.jpg" alt="Vieux Port">
+        </div>
+        <div class="title-ac">
+          <h4>Vieux Port</h4>
+        </div>
       </div>
-      <div class="medium1"><h3>Fort de Pomègues</h3></div>
-      <div class="small1"><h3>îles de Frioul</h3></div>
-      <div class="big2"><h3>Parc National des Calanques</h3></div>
-      <div class="small2"><h3>Notre Dame de la Garde</h3></div>
-      <div class="medium2"><h3>Parc Longchamp</h3></div>
+     <div class="card-activites-group"> 
+       <div class="card-ac-1 act-card">
+        <a href="#"></a>
+        <div>
+          <img src="images/activites/4_small/fort-de-pomègues.jpg" alt="Fort de Pomègues">
+        </div>
+        <div class="title-ac">
+          <h4>Fort de Pomègues</h4>
+        </div>
+      </div>
+      <div class="card-ac-2 act-card">
+        <a href="#"></a>
+        <div>
+          <img src="images/activites/4_small/îles-du-frioul.jpg" alt="Îles du Frioul">
+        </div>
+        <div class="title-ac">
+          <h4>Îles du Frioul</h4>
+        </div>
+      </div>
+     </div>
+      <div class="card-activites act-card">
+        <a href="#"></a>
+        <div>
+          <img src="images/activites/4_small/parc-national_des_calanques.jpg" alt="parc-national_des_calanques">
+        </div>
+        <div class="title-ac">
+          <h4>Parc National des Calanques</h4>
+        </div>
+      </div>
+      <div class="card-activites-group">
+      <div class="card-ac-3 act-card">
+        <a href="#"></a>
+        <div>
+          <img src="images/activites/4_small/notre-dame-de-la-garde.jpg" alt="Notre-Dame-de-la-Garde">
+        </div>
+        <div class="title-ac">
+          <h4>Notre-Dame-de-la-Garde</h4>
+        </div>
+      </div>
+      <div class="card-ac-4 act-card">
+        <a href="#"></a>
+        <div>
+          <img src="images/activites/4_small/parc-longchamp.jpg" alt="Parc Longchamp">
+        </div>
+        <div class="title-ac">
+          <h4>Parc Longchamp</h4>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
+</section>
 </main>
     <footer>
       <div>

@@ -1,30 +1,29 @@
 /* FILTER */
-.filter-list
-     {
-       display: flex;
+.flex-filter
+    {
+      display: flex;
        align-items: center;
-       gap: 1rem 2rem;
+       gap: 16px 32px;
        flex-wrap: wrap;
-       margin-top: 1.5rem;
+       margin-top: 24px;
     }
-
 
 
 .filter .fa-solid 
     {
       color:blue ;
       background-color: #DEEBFF;
-      padding: 1rem;
+      padding: 16px;
       border-radius: 100%;
       margin: -2px;
-      width: 3rem;
-      height: 3rem;
+      width: 48px;
+      height: 48px;
      }
 .filter .fas
      {
        color:blue ;
        background-color: #DEEBFF;
-       padding: 1rem;
+       padding: 16px;
        border-radius: 100%;
        margin: -2px;
       }
@@ -32,16 +31,16 @@
 .filter
      {
        border: 2px solid #d9d9d9;
-       border-radius: 2rem;
+       border-radius: 32px;
        cursor:pointer ;
        opacity: 0.9;
-       transition-duration: 0.2;
+       transition-duration: 0.2s;
        
      }
 .filter span
      {
        font-weight: bold;
-       padding: 1rem;
+       padding: 16px;
     }
 .filter:hover
     {
@@ -61,16 +60,22 @@
    align-items: center;
    gap: 1rem;
    flex-wrap: wrap;
-   margin-top: 1rem;
+   margin-top: 16px;
   }
 .info .fa-solid
  {
    color: #0065FC;
-   width: 2rem;
-   height: 2rem;
+   width: 32px;
+   height: 32px;
    border: 1px solid #d9d9d9;
    border-radius: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
  }
+ @media (max-width:992px)
+  {
+    .filter
+       {
+       }
+  }
